@@ -1,0 +1,23 @@
+:root {
+  /* Default theme (light) */
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --btn-bg-color: #007bff;
+  --btn-text-color: #ffffff;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: all 0.3s ease;
+}
+
+button {
+  background-color: var(--btn-bg-color);
+  color: var(--btn-text-color);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
